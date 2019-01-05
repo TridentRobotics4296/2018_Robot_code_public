@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="WS Tools" default="clean">
+
+	<target name="clean">
+		<echo>Target clean</echo>
+		<delete dir="build" />
+		<delete dir="dist" />
+	</target>
+
+</project>
